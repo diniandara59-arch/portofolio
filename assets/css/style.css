@@ -1,0 +1,23 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+section {
+    scroll-margin-top: 70px;
+}
+
+
+.card {
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+.navbar .nav-link:hover {
+    color: #ffc107;
+}
